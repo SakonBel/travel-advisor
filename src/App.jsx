@@ -1,7 +1,13 @@
+import Header from "./components/Header/Header";
+import List from "./components/List/List";
+import Map from "./components/Map/Map";
+
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <Header />
+      <List />
+      <Map />
     </div>
   );
 }
